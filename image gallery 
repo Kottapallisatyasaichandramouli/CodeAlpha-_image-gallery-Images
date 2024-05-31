@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Image gallery</title>
+        <style>
+            body{
+                font-family: Calibri, sans-serif;
+                background-color:lightgray;
+                text-allign:center;
+            }
+            figure{
+                border:2px solid black;
+                width:350px;
+                padding:10px;
+                background-color: gray;
+                box-shadow: 0 0 10px black;
+                display:inline-block;
+                margin: 10px;
+            
+            }
+            figure img{
+                width:100%;
+                height: 325px;
+            }
+            figure figcaption{
+                padding:10px 25px;
+                font-size:20px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <figure>
+           <img src="https://images.news18.com/ibnlive/uploads/2023/11/rohit-sharma-speaks-after-indias-loss-to-australia-in-world-cup-final-2023-11-f4fab0df848378beb2f9ba4a526c0f6c.jpg?impolicy=website&width=640&height=480" alt="devara"> 
+        <figcaption>wait continues</figcaption>
+        </figure>
+        <figure>
+            <img src="https://images.firstpost.com/uploads/2024/04/Rohit-Sharma-2023-ICC-World-Cup-final-Reuters-1200-2024-04-d4331a056d256062c88ef2fb1402b35d.jpg?im=FitAndFill=(596,336)"> 
+         <figcaption>disappointment</figcaption>
+         </figure> 
+         <figure>
+            <img src="https://img.jagranjosh.com/images/2021/December/9122021/Rohit-sharma-new-odi-captain.webp" alt="devara"> 
+         <figcaption>inspiration</figcaption>
+         </figure>
+         <figure>
+            <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202311/rohit-sharma-120833197-3x4.jpg?VersionId=j90beDe69E2fzH5aE9pzYLPeujlHDN.H" alt="devara"> 
+         <figcaption>fearless approach</figcaption>
+         </figure>
+         <figure>
+         <img src="https://staticimg.amarujala.com/assets/images/2017/06/01/rohit-sharma_1496311531.jpeg" alt="devara">
+         <figcaption>beast</figcaption>
+        </figure>
+        <figure>
+        <img src="https://images.icc-cricket.com/image/upload/t_ratio16_9-size40/prd/spldcm6oih92w5jmwtnq" alt="devara">
+         <figcaption>diehard lover of wc</figcaption>
+        </figure>
+        <figure>
+            <img src="https://w0.peakpx.com/wallpaper/554/757/HD-wallpaper-hitman-sharma-indian-cricket-rohit-sharma-thumbnail.jpg" alt="devara">
+             <figcaption>myth</figcaption>
+            </figure>
+        <figure>
+            <img src="https://i.pinimg.com/736x/1b/ee/78/1bee780739b6f3fa94bc8e002e30bdb8.jpg" alt="devara">
+            <figcaption>legend</figcaption>
+        </figure>    
+        <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8NRPtNILqueF_nBk6Wn3aDgXWbqAs6TWL4w&s" alt="devara">
+            <figcaption>friendship</figcaption>
+        </figure>
+
+    </body>
+</html>
